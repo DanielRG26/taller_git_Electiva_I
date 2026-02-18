@@ -54,3 +54,89 @@ main {
 .imagen img:hover {
     transform: scale(1.05);
 }
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f3efe9;
+    color: #4a3f35;
+}
+
+/* Encabezado */
+header {
+    background-color: #a3b18a;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+/* Contenido principal */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    gap: 40px;
+}
+
+/* Imagen */
+.imagen img {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Información */
+.info {
+    max-width: 400px;
+}
+
+.info h2 {
+    color: #6a994e;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info li {
+    background-color: #dde5b6;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+/* Botón */
+.boton {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #6a994e;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.boton:hover {
+    transform: scale(1.05);
+}
+
+/* Texto oculto */
+.oculto {
+    display: none;
+    margin-top: 10px;
+    background-color: #e9edc9;
+    padding: 10px;
+    border-radius: 10px;
+}
